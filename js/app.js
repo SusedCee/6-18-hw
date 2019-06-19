@@ -72,7 +72,7 @@ console.log(letters); //equals true based on the code before
 
 //2. 
 for (let i = 0; i <=999; i++){
-	console.log('The number is ${i}')
+	console.log(`The number is ${i}`);
 }
 
 //3. 
@@ -82,19 +82,19 @@ for (let i = 0; i <=999; i++){
 
 //4. 
 for (let i = 999; i >=0; i--){
-	console.log('The number is ${i}')
+	console.log(`The number is ${i}`);
 }
 
 //5. 
 for (let i = 0; i <=10; i++){
-	console.log('The value of i is: ${i} of 10');
+	console.log(`The value of i is: ${i} of 10`);
 }
 
 
 
+//	console.log("The number is ${i}");
 
-
-
+// console.log("The number is" + "" + ${i});
 
 
 
